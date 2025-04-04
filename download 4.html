@@ -1,0 +1,963 @@
+
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=3">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <meta property="og:title" content="&#x628;&#x648;&#x627;&#x628;&#x629; &#x646;&#x627;&#x62C;&#x632;" />
+    <meta property="og:image" content="https://najizcdn.moj.gov.sa/n2/Images/og-logo.jpg">
+    <title>&#x628;&#x648;&#x627;&#x628;&#x629; &#x646;&#x627;&#x62C;&#x632;</title>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/bootstrap/4.5.0/css/najiz-bootstrap.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/bootstrap/4.5.0/css/najiz-bootstrap-custom.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/font-awesome/5.15.2/css/all.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/loaders/0.1.2/css/loaders.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/datatable/1.10.19/datatables.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/Select2/4.0.11/css/select2.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/portal/css/animate.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/perfect-scrollbar/1.5.0/css/perfect-scrollbar.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/portal/css/admin.min.css?v=27" />
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/portal/css/admin-top.min.css?v=27" />
+    <script src="https://najizcdn.moj.gov.sa/n2/portal/js/jquery-3.6.0.min.js?v=27"></script>
+    <script defer="True" src="https://najizcdn.moj.gov.sa/n2/bootstrap/4.3.1/js/popper.min.js?v=27"></script>
+    <script defer="True" src="https://najizcdn.moj.gov.sa/n2/bootstrap/4.3.1/js/bootstrap.min.js?v=27"></script>
+    
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/ChatWidget/widget-chat.min.css?v=27" />
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/ChatWidget/live-chat.min.css?v=27" />
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/ChatWidget/qaimWebComponent/css/app.min.css?v=27" />
+<script src="https://apps.mypurecloud.com/pureconnect-widgets" pureconnect-widgets-data="eyJpZCI6Ik5ld19DaGF0X1dpZGdldCIsImljU2VydmVycyI6WyJHZW5zcGMxIiwiR2Vuc3BjMiJdLCJyZXZlcnNlUHJveHlVcmwiOiJodHRwczovL2dlbnN3ZWIubW9qLmdvdi5zYS9jbGllbnQvYXBpIiwidXNlQ2FhUyI6ZmFsc2UsImNhYXNVcmwiOm51bGwsInVzZUh0dHBzIjp0cnVlfQ==" defer></script>
+<script defer="True" src="https://najizcdn.moj.gov.sa/n2/ChatWidget/customFormsMoj.min.js?v=27"></script>
+<script defer="True" src="https://najizcdn.moj.gov.sa/n2/ChatWidget/qaimWebComponent/js/app.min.js?v=27"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css"><link href="/applications/courts/lawsuits-requests/css/app.e081712f.css" rel="preload" as="style"><link href="/applications/courts/lawsuits-requests/css/chunk-vendors.80d1ce1e.css" rel="preload" as="style"><link href="/applications/courts/lawsuits-requests/js/app.e1ecadbf.js" rel="preload" as="script"><link href="/applications/courts/lawsuits-requests/js/chunk-vendors.1169b559.js" rel="preload" as="script"><link href="/applications/courts/lawsuits-requests/css/chunk-vendors.80d1ce1e.css" rel="stylesheet"><link href="/applications/courts/lawsuits-requests/css/app.e081712f.css" rel="stylesheet">
+
+    
+    <script type="text/javascript" src="/ruxitagentjs_ICA27Vfgjqrux_10239220408103229.js" data-dtconfig="rid=RID_1212097741|rpid=1467695389|domain=najiz.sa|reportUrl=/rb_bf15146xxt|app=5133bb50d7837ed4|rcdec=1209600000|featureHash=ICA27Vfgjqrux|srsr=20000|vcv=2|rdnt=1|uxrgce=1|bp=3|srmcrv=10|cuc=yezlhxym|mel=100000|dpvc=1|ssv=4|lastModification=1654669398700|dtVersion=10239220408103229|srmcrl=1|tp=500,50,0,1|uxdcw=1500|agentUri=/ruxitagentjs_ICA27Vfgjqrux_10239220408103229.js"></script>
+
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://najizcdn.moj.gov.sa/n2/portal/css/layout.min.css?v=27" />
+
+    <script>
+        $(document).ready(function () {
+            $('[data-scrollbar]').each(function (index, element) {
+                new PerfectScrollbar(element, {
+                    wheelSpeed: 1,
+                    wheelPropagation: true,
+                    maxScrollbarLength: 250,
+                    suppressScrollX: true,
+                    scrollYMarginOffset: 5,
+                });
+            });
+        });
+        function toggleSidebar() {
+            $("#sidebar").toggle();
+            $('.sideBarToggler i').toggleClass('btn-animation');
+        }
+        function ShowLoader() {
+            $('#MOJloadingDiv').fadeIn();
+        };
+        function HideLoader() {
+            $('#MOJloadingDiv').fadeOut();
+        };
+        function ShowtooltepMinu(id) {
+            const targetId = id.currentTarget;
+            const x = targetId.children[1];
+            if (targetId.className.includes('opened')) {
+                $('.tooltep_Minu').each(function () {
+                    $(this).attr('hidden', true);
+                    $(this).parent('li').removeClass('opened');
+                });
+            }
+            else {
+                $('.tooltep_Minu').each(function () {
+                    $(this).attr('hidden', true);
+                    $(this).parent('li').removeClass('opened');
+                });
+                targetId.classList.toggle("opened");
+                x.hidden = !x.hidden
+            }
+        }
+        window.onclick = function (event) {
+            const Elm = document.getElementsByClassName('tooltep_Minu');
+            if (!event.target.hasAttribute('more')) {
+                $('.tooltep_Minu').each(function () {
+                    $(this).attr('hidden', true);
+                    $(this).parent('li').removeClass('opened');
+                });
+            }
+        }
+
+        $(document).ready(function () {
+            'use strict';
+            var c, currentScrollTop = 0,
+                navbar = $('nav');
+
+            $(window).scroll(function () {
+                var a = $(window).scrollTop();
+                var b = navbar.height();
+
+                currentScrollTop = a;
+
+                if (c < currentScrollTop && a) {
+                    document.getElementById("nav-Top").style.display = "none";
+                } else if (currentScrollTop >= 0) {
+                    document.getElementById("nav-Top").style.display = "flex";
+                }
+                c = currentScrollTop;
+            });
+
+        });
+    </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SN7JQTBKJ6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-SN7JQTBKJ6');
+        </script>
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 2620920, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+
+<body id="dashboardActions">
+    <div class="loader" id="MOJloadingDiv">
+        <div class="balls" id="fountainG">
+            <div id="fountainG_1" class="fountainG"></div>
+            <div id="fountainG_2" class="fountainG"></div>
+            <div id="fountainG_3" class="fountainG"></div>
+            <div id="fountainG_4" class="fountainG"></div>
+            <div id="fountainG_5" class="fountainG"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="/dashboard" class="header__logoLink">
+                    <img alt="najiz" class="header__logoImg" src="https://najizcdn.moj.gov.sa/n2/Images/logo.svg?v=27" />
+                </a>
+            </div>
+
+            <div class="header__search">
+                
+<style>
+    .searchBox {
+        background-color: #fff;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top: 1px solid #dbdbdb;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        display: none;
+        font-weight: 500;
+        padding: 14px 18px 0;
+        position: absolute;
+        top: 83px;
+        width: 500px;
+        z-index: 100;
+        right: -4px;
+    }
+
+    .searchBox--visible {
+        display: block;
+    }
+
+    .searchBox__searchBoxList {
+        padding-bottom: 14px;
+    }
+
+        .searchBox__searchBoxList li {
+            line-height: 30px;
+        }
+
+            .searchBox__searchBoxList li:not(:last-of-type) {
+                margin-bottom: 8px;
+            }
+
+        .searchBox__searchBoxList a {
+            align-items: center;
+            color: #5c6f7c;
+            display: flex;
+            transition: color 0.3s;
+            font-size: 14px;
+        }
+
+            .searchBox__searchBoxList a:hover {
+                color: #02363d;
+            }
+
+        .searchBox__searchBoxList strong {
+            font-weight: 700;
+        }
+
+    .searchBox__searchResultsToggler {
+        background-color: #fff;
+        border-radius: 4px;
+        color: #5c6f7c;
+        display: none;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 21px;
+        padding-bottom: 12px;
+        text-align: left;
+        transition: color 0.3s;
+    }
+
+    html[dir="rtl"] .searchBox__searchResultsToggler {
+        text-align: right;
+    }
+
+    .searchBox__searchResultsToggler:hover {
+        color: #02363d;
+    }
+
+    .searchBox__searchResultsToggler--visible {
+        display: block;
+    }
+
+    .searchBox__searchBoxCategory {
+        background-color: #faf9f4;
+        border-radius: 6px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 12px;
+        min-width: 56px;
+        padding: 2px 6px;
+        text-align: center;
+    }
+
+    .searchBox .faq__question {
+        font-size: 13px;
+        font-weight: bold;
+        line-height: normal !important;
+        margin-bottom: 8px;
+    }
+
+    html[dir=rtl] .searchBox .faq__question:after {
+        margin-right: 20px !important;
+    }
+
+    .searchBox .faq__anwser {
+        font-size: 12px;
+        line-height: normal;
+        padding-left: 20px;
+    }
+
+    .searchBox .faq__itemWrap {
+        margin: 0px;
+        padding-bottom: 8px;
+        padding-top: 16px;
+        margin-top: -4px;
+        border-color: #f1f1f1 !important;
+    }
+
+    .searchBox .faq__item--selected.faq__item--faq {
+        border-color: transparent !important;
+    }
+
+    .searchBox .faq__box {
+        border-top: 1px solid #f1f1f1;
+        padding-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .faq__box.mt-0 h5 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .faqCollapsedBox {
+        display: none;
+    }
+
+    .faqShowBox {
+        display: block;
+    }
+    .smart-search-no-result {
+        width: 310px;
+        margin: auto;
+        display: block;
+    }
+</style>
+
+<div class="input input--search">
+    <div class="input__icon icon icon-search"></div>
+    <input type="text"
+           class="input__field input__field--noFocus input__field--noTop"
+           placeholder="اكتب هنا للبحث"
+           id="header__searchBox_input">
+    <div class="searchBox" id="searchBox">
+        <ul class="searchBox__searchBoxList" id="searchBoxList"></ul>
+        
+        <div class="noResultBox" id="noResultBox">
+            <img alt="noResult" class="smart-search-no-result" src="https://najizcdn.moj.gov.sa/n2/Images/no-result.png?v=27" />
+        </div>
+
+        <div class="searchBox_emptyList">
+            <h5 class="mb-1 text-pepper">
+                <strong>لا يوجد خدمات تناسب بحثك</strong>
+            </h5>
+        </div>
+        <div class="faq__box mt-0" id="faqBox"></div>
+        <div class="faq_emptyList" >
+            <h5 class="mb-1 text-pepper">
+                <strong>لا يوجد نتائج تناسب بحثك</strong>
+            </h5>
+        </div>
+        <div class="moreResult" id="moreResult">
+            <a href="#"
+               class="mb-1 searchBox__searchResultsToggler searchBox__searchResultsToggler--visible d-flex align-items-center">
+                المزيد
+                <span class="icon icon-arrow_left_bold d-block mx-1"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    var timeout;
+
+    $('#header__searchBox_input').keyup(function (event) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => startSearch(), 700);
+    });
+
+    document.getElementById("header__searchBox_input").addEventListener("focusin", startSearch);
+    document.getElementById("header__searchBox_input").addEventListener("focusout", closeSearchBox);
+
+    function closeSearchBox() {
+        document.getElementById("searchBox").style.display = 'none';
+    }
+
+    function startSearch() {
+        var result = false;
+
+        if ($('#header__searchBox_input').val().length > 2) {
+            result = true;
+        } else {
+            result = false;
+        }
+
+        if (result) {
+            search($('#header__searchBox_input').val());
+        } else {
+            $('.searchBox').removeClass('searchBox--visible');
+        };
+    }
+
+    function showAnswer(id) {
+
+        var answer = document.getElementById(id);
+
+        if (answer.style.display === '' || answer.style.display === 'none') {
+
+            document.getElementById(id).style.display = 'block';
+
+        }
+
+        else {
+
+            document.getElementById(id).style.display = 'none';
+
+        }
+
+    }
+  
+    function search(searchText) {
+        ShowLoader();
+        $('.searchBox_emptyList').hide();
+        $('.faq_emptyList').hide();
+        $('.noResultBox').hide();
+        var url = '/api/smart-search?searchText=' + searchText + '&take=3';
+
+        $.get(url).done(function (result) {
+            
+            if (!result || ((!result.services || result.services.length == 0) && (!result.faQs || result.faQs.length == 0))) {
+               
+                $('#noResultBox').css('display', 'block');
+                $('#searchBox').css('display', 'block');
+                $('#searchBoxList').css('display', 'none');
+                $('#faqBox').css('display', 'none');
+                $('#moreResult').css('display', 'none');
+                $('.noResultBox').show();
+            }
+            else {
+                $('#noResultBox').css('display', 'none');
+                $('#searchBox').css('display', 'block');
+                $('#searchBoxList').css('display', 'block');
+                $('#faqBox').css('display', 'block');
+
+                searchBoxList
+            }
+            if (result.isSuccess && !result.faQs.length == 0) {
+                $('#noResultBox').css('display', 'none');
+                $('#searchBox').css('display', 'block');
+                $('#searchBoxList').css('display', 'block');
+                $('#faqBox').css('display', 'block');
+                $('.searchBox__searchBoxList').html('');
+                $('.faq__box').html('');
+                $('.faq__box').append(`<h5 class="mb-1 text-pepper"><strong>كيف يمكننا مساعدتك؟</strong></h5>`);
+
+                if (result.services.length == 0 && !result.faQs.length == 0) {
+                    $('.searchBox_emptyList').show();
+                }
+
+                for (i = 0; i < result.services.length; ++i) {
+                    $('.searchBox__searchBoxList')
+                        .append(`<li><a href="/applications/dashboard/service-detail/`
+                            + result.services[i].id
+                            + `"><span class="searchBox__searchBoxCategory sand">`
+                            + 'خدمة'
+                            + `</span><p>`
+                            + result.services[i].title
+                            + `<strong> </strong></p></a></li>`);
+                }
+
+                if (result.faQs.length == 0 && !result.services.length == 0) {
+                    $('.faq_emptyList').show();
+                }
+                
+                for (i = 0; i < result.faQs.length; ++i) {
+                    var id = result.faQs[i].id;
+                    $('.faq__box')
+                        .append(`<div class="faq__item faq__item--faq  faq__item--selected"><div class="faq__itemWrap"><a onclick=showAnswer('` + id + `') class="faq__question"><span>`
+                        + result.faQs[i].question + '</a>'
+                        + `<div class="faqCollapsedBox"  id=` + id + `>`
+                            + `</span></a><div class="faq__anwser">`
+                            + result.faQs[i].answer
+                            + `</div>`
+                            + `</div></div></div>`);
+                }
+                $('.searchBox__searchResultsToggler').attr("href", `/applications/smart-search/result/` + searchText);
+                HideLoader();
+                $('.searchBox').addClass('searchBox--visible');
+            } else {
+                HideLoader();
+                $('.searchBox').removeClass('searchBox--visible');
+            }
+        }).fail(function (err) {
+            HideLoader();
+            $('.searchBox').removeClass('searchBox--visible');
+        });
+    }
+</script>
+
+                <div class="header__searchActions">
+                    <a class="header__searchActionWrapper" href="/applications/dashboard/verification-services">
+                        <span class="header__searchAction icon icon-verifications"></span>
+
+                        <p class="header__searchActionText"> خدمات التحقق </p>
+                    </a>
+
+                        <a class="header__searchActionWrapper" href="/dashboard/portal-services">
+                            <span class="header__searchAction icon icon-tiles"></span>
+
+                            <p class="header__searchActionText">
+                                جميع الخدمات الإلكترونية
+                            </p>
+                        </a>
+
+                    <a class="header__searchActionWrapper" href="/LicenseGuide">
+                        <span class="header__searchAction icon icon-verifications_5"></span>
+
+                        <p class="header__searchActionText">  دليل المرخصين </p>
+                    </a>
+
+
+
+                </div>
+            </div>
+
+            
+                
+<div class="header__right">
+
+    
+<link href="https://najizcdn.moj.gov.sa/n2/Notification/notification.min.css?v=27" rel="stylesheet" />
+
+<div class="header__notifications" id='notification-trigger'>
+    <span class="accountWindow__accountIcon accountWindow__accountIcon--notification header__accountIcon icon icon-notification"></span>
+    <span id="notificationCount"></span>
+    <div class="notifications" id="notifications-tooltip">
+        <div id='notifications-loader-wrapper'>
+            <div class='blury-layout'></div>
+            <div class='loader-content'>
+                <img alt="loader" class="notifications-loader" src="https://najizcdn.moj.gov.sa/n2/Images/notifications-loader.svg?v=27" />
+            </div>
+        </div>
+
+        <h5 class="notifications__title"> الإشعارات </h5>
+
+        <div class="notifications__listWrapper">
+            <ul class="notifications__list" id="userNotificationsList" style="display: none"></ul>
+            <label class="text-center w-100 p-2" id="notFoundMessage" style="display: none">&#x644;&#x627; &#x62A;&#x648;&#x62C;&#x62F; &#x625;&#x634;&#x639;&#x627;&#x631;&#x627;&#x62A; &#x644;&#x639;&#x631;&#x636;&#x647;&#x627;</label>
+        </div>
+    </div>
+</div>
+
+<script defer="True" src="https://najizcdn.moj.gov.sa/n2/Notification/NotificationsPopup.min.js?v=27"></script>
+<script defer="True" src="https://najizcdn.moj.gov.sa/n2/Moment/2.25.2/moment.min.js?v=27"></script>
+<script>
+    $('#notification-trigger').click(function (e) {
+        e.stopPropagation();
+
+        loadNotifications();
+        $('#notifications-tooltip').toggleClass('notifications--visible');
+    });    
+    
+</script>
+    
+
+
+<div class="header__accountDetailsWrapper">
+    <div class="header__accountDetails">
+        <div class="accountWindow__accountName">
+            &#x639;&#x628;&#x62F;&#x627;&#x644;&#x647;&#x627;&#x62F;&#x64A; &#x628;&#x646; &#x636;&#x64A;&#x641;  &#x627;&#x644;&#x644;&#x647; &#x628;&#x646; &#x632;&#x64A;&#x62F; &#x627;&#x644;&#x639;&#x62A;&#x64A;&#x628;&#x64A;
+            <a href="/applications/organization-activation/account-management" class="d-block accountWindow__accounts--page-link">
+                ( إدارة الحسابات )
+            </a>
+        </div>
+        
+        <div class="accountWindow__avatarWrapper">
+            <img class="accountWindow__avatar" alt="" src="https://najizcdn.moj.gov.sa/n2/Images/default-user-ico.svg?v=27" />
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.header__hamburger').click(function () {
+            $('.nav__mobileWrapper').toggleClass('open');
+            $('body, html').toggleClass('overflow_hidden');
+        });
+    });
+</script>
+    <a class="accountWindow__accountIcon accountWindow__accountIcon--black header__accountIcon icon icon-back" href="/Account/Logout"></a>
+
+    <div class="header__hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+            
+            
+        </div>
+    </header>
+    
+<nav class="nav" id="nav-Top">
+    <div class="nav__inner" data-scrollbar>
+        <div class="nav__wrapper">
+
+            <menu class="nav__groupList">
+                <li class="nav__groupItem  icon icon-dashboard">
+                    <a class="nav__itemText" href="/dashboard"> &#x644;&#x648;&#x62D;&#x629; &#x627;&#x644;&#x645;&#x639;&#x644;&#x648;&#x645;&#x627;&#x62A; </a>
+                </li>
+            </menu>
+            <p class="nav__groupTitle"> الخدمات العدلية </p>
+
+            <menu class="nav__groupList">
+                            <li ListMore more class="nav__groupItem  icon icon-category_justice" onclick="ShowtooltepMinu(event)">
+                                <a href="#" more class="nav__itemText"> &#x627;&#x644;&#x642;&#x636;&#x627;&#x621; </a>
+                                <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                    <ul class="list-unstyled components">
+                                            <li class="nav__groupItem  icon icon-category_justice" more>
+                                                <a href="/applications/lawsuit" class="nav__itemText" more> &#x635;&#x62D;&#x64A;&#x641;&#x629; &#x627;&#x644;&#x62F;&#x639;&#x648;&#x649; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon icon-category_justice" more>
+                                                <a href="/applications/courts/lawsuits-requests?degreeId=1" class="nav__itemText" more> &#x627;&#x644;&#x62F;&#x631;&#x62C;&#x629; &#x627;&#x644;&#x623;&#x648;&#x644;&#x649; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon icon-category_justice" more>
+                                                <a href="/applications/courts/lawsuits-requests?degreeId=2" class="nav__itemText" more> &#x627;&#x644;&#x627;&#x633;&#x62A;&#x626;&#x646;&#x627;&#x641; </a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li ListMore more class="nav__groupItem  icon" onclick="ShowtooltepMinu(event)">
+                                <a href="#" more class="nav__itemText"> &#x627;&#x644;&#x62A;&#x646;&#x641;&#x64A;&#x630; </a>
+                                <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                    <ul class="list-unstyled components">
+                                            <li class="nav__groupItem  icon icon-numbers_98193" more>
+                                                <a href="/applications/iexecution#/" class="nav__itemText" more> &#x637;&#x644;&#x628;&#x627;&#x62A; &#x627;&#x644;&#x62A;&#x646;&#x641;&#x64A;&#x630; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon icon-numbers_98193" more>
+                                                <a href="/applications/iexecution#/financialReport" class="nav__itemText" more> &#x627;&#x644;&#x62A;&#x642;&#x631;&#x64A;&#x631; &#x627;&#x644;&#x645;&#x627;&#x644;&#x64A; </a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li ListMore more class="nav__groupItem  icon icon-category_notary" onclick="ShowtooltepMinu(event)">
+                                <a href="#" more class="nav__itemText"> &#x627;&#x644;&#x62A;&#x648;&#x62B;&#x64A;&#x642; </a>
+                                <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                    <ul class="list-unstyled components">
+                                            <li class="nav__groupItem  icon icon-category_real_estate" more>
+                                                <a href="/applications/real-estates/ListMyRealEstates" class="nav__itemText" more> &#x627;&#x644;&#x639;&#x642;&#x627;&#x631;&#x627;&#x62A; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon icon-category_notary" more>
+                                                <a href="/applications/wekalat/procurations-query" class="nav__itemText" more> &#x627;&#x644;&#x648;&#x643;&#x627;&#x644;&#x627;&#x62A; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon icon-category_notary" more>
+                                                <a href="/applications/iqrarat/Iqraraty" class="nav__itemText" more> &#x627;&#x644;&#x625;&#x642;&#x631;&#x627;&#x631;&#x627;&#x62A; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon icon-category_family" more>
+                                                <a href="/applications/socialcases/requests/home" class="nav__itemText" more> &#x627;&#x644;&#x62D;&#x627;&#x644;&#x627;&#x62A; &#x627;&#x644;&#x627;&#x62C;&#x62A;&#x645;&#x627;&#x639;&#x64A;&#x629; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon icon-category_notary" more>
+                                                <a href="/applications/mortgages/list" class="nav__itemText" more> &#x627;&#x644;&#x631;&#x647;&#x648;&#x646; </a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li ListMore more class="nav__groupItem  icon icon-category_licenses" onclick="ShowtooltepMinu(event)">
+                                <a href="#" more class="nav__itemText"> &#x627;&#x644;&#x62A;&#x631;&#x627;&#x62E;&#x64A;&#x635; &#x627;&#x644;&#x639;&#x62F;&#x644;&#x64A;&#x629; </a>
+                                <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                    <ul class="list-unstyled components">
+                                            <li class="nav__groupItem  icon icon-category_justice" more>
+                                                <a href="/applications/marriage-officials/marriage-Official-Licences" class="nav__itemText" more> &#x645;&#x623;&#x630;&#x648;&#x646;&#x64A; &#x627;&#x644;&#x623;&#x646;&#x643;&#x62D;&#x629; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon category_licenses" more>
+                                                <a href="/applications/lawyers/judicialLicences" class="nav__itemText" more> &#x627;&#x644;&#x645;&#x62D;&#x627;&#x645;&#x64A;&#x646; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon category_licenses" more>
+                                                <a href="/applications/mwathiqen" class="nav__itemText" more> &#x627;&#x644;&#x645;&#x648;&#x62B;&#x642;&#x64A;&#x646; </a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li ListMore more class="nav__groupItem  icon icon-clock" onclick="ShowtooltepMinu(event)">
+                                <a href="#" more class="nav__itemText"> &#x627;&#x644;&#x645;&#x648;&#x627;&#x639;&#x64A;&#x62F; </a>
+                                <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                    <ul class="list-unstyled components">
+                                            <li class="nav__groupItem  icon icon-clock" more>
+                                                <a href="/applications/appointment-requests" class="nav__itemText" more> &#x632;&#x64A;&#x627;&#x631;&#x629; &#x645;&#x631;&#x641;&#x642; &#x639;&#x62F;&#x644;&#x64A; </a>
+                                            </li>
+                                            <li class="nav__groupItem  icon icon-clock" more>
+                                                <a href="/applications/notary-publications/appointments" class="nav__itemText" more> &#x643;&#x62A;&#x627;&#x628;&#x627;&#x62A; &#x627;&#x644;&#x639;&#x62F;&#x644; &#x627;&#x644;&#x645;&#x62A;&#x646;&#x642;&#x644;&#x629; </a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                                <li class="nav__groupItem  icon icon-mail">
+                                    <a href="/applications/crm/list" class="nav__itemText"> &#x627;&#x644;&#x62A;&#x648;&#x627;&#x635;&#x644; &#x627;&#x644;&#x639;&#x62F;&#x644;&#x64A; 1950 </a>
+                                </li>
+                                <li class="nav__groupItem  icon icon-category_justice">
+                                    <a href="/applications/lawsuit/judicial-fees" class="nav__itemText"> &#x627;&#x644;&#x62A;&#x643;&#x627;&#x644;&#x64A;&#x641; &#x627;&#x644;&#x642;&#x636;&#x627;&#x626;&#x64A;&#x629; </a>
+                                </li>
+            </menu>
+        </div>
+    </div>
+
+    <div class="nav__mobileWrapper">
+        <div class="nav__mobileClose">
+            <i class="icon icon-close" id="nav__mobileClose"></i>
+        </div>
+        <div class="mobile-user-area">
+            <div class="mobile-user-img">
+                <div class="accountWindow__avatarWrapper">
+                    <img alt="" class="accountWindow__avatar" src="https://najizcdn.moj.gov.sa/n2/Images/default-user-ico.svg?v=27" />
+                </div>
+            </div>
+            <div class="mobile-user-info">
+                <small>مرحبا بك</small>
+                <strong>&#x639;&#x628;&#x62F;&#x627;&#x644;&#x647;&#x627;&#x62F;&#x64A; &#x628;&#x646; &#x636;&#x64A;&#x641;  &#x627;&#x644;&#x644;&#x647; &#x628;&#x646; &#x632;&#x64A;&#x62F; &#x627;&#x644;&#x639;&#x62A;&#x64A;&#x628;&#x64A;</strong>
+                <a href="/applications/organization-activation/account-management">( إدارة الحسابات )</a>
+            </div>
+            <div class="mobile-user-logout">
+                <a class="accountWindow__accountIcon accountWindow__accountIcon--black header__accountIcon icon icon-back" href="/Account/Logout"></a>
+            </div>
+        </div>
+
+        <menu class="nav__mobileInner">
+                        <li class="nav__groupItem p-0">
+                            <a href="/dashboard" class="nav__groupItem  icon icon-dashboard">
+                                <span class="font-weight-bold text-pepper">&#x644;&#x648;&#x62D;&#x629; &#x627;&#x644;&#x645;&#x639;&#x644;&#x648;&#x645;&#x627;&#x62A;</span>
+                            </a>
+                        </li>
+                        <li more class="nav__groupItem p-0" onclick="ShowtooltepMinu(event)">
+                            <a href="#" more class="nav__groupItem icon icon-category_justice"> &#x627;&#x644;&#x642;&#x636;&#x627;&#x621; </a>
+                            <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                <ul class="list-unstyled components">
+                                        <li class="nav__groupItem  icon icon-category_justice" more>
+                                            <a href="/applications/lawsuit" class="nav__itemText" more> &#x635;&#x62D;&#x64A;&#x641;&#x629; &#x627;&#x644;&#x62F;&#x639;&#x648;&#x649; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon icon-category_justice" more>
+                                            <a href="/applications/courts/lawsuits-requests?degreeId=1" class="nav__itemText" more> &#x627;&#x644;&#x62F;&#x631;&#x62C;&#x629; &#x627;&#x644;&#x623;&#x648;&#x644;&#x649; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon icon-category_justice" more>
+                                            <a href="/applications/courts/lawsuits-requests?degreeId=2" class="nav__itemText" more> &#x627;&#x644;&#x627;&#x633;&#x62A;&#x626;&#x646;&#x627;&#x641; </a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li more class="nav__groupItem p-0" onclick="ShowtooltepMinu(event)">
+                            <a href="#" more class="nav__groupItem icon"> &#x627;&#x644;&#x62A;&#x646;&#x641;&#x64A;&#x630; </a>
+                            <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                <ul class="list-unstyled components">
+                                        <li class="nav__groupItem  icon icon-numbers_98193" more>
+                                            <a href="/applications/iexecution#/" class="nav__itemText" more> &#x637;&#x644;&#x628;&#x627;&#x62A; &#x627;&#x644;&#x62A;&#x646;&#x641;&#x64A;&#x630; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon icon-numbers_98193" more>
+                                            <a href="/applications/iexecution#/financialReport" class="nav__itemText" more> &#x627;&#x644;&#x62A;&#x642;&#x631;&#x64A;&#x631; &#x627;&#x644;&#x645;&#x627;&#x644;&#x64A; </a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li more class="nav__groupItem p-0" onclick="ShowtooltepMinu(event)">
+                            <a href="#" more class="nav__groupItem icon icon-category_notary"> &#x627;&#x644;&#x62A;&#x648;&#x62B;&#x64A;&#x642; </a>
+                            <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                <ul class="list-unstyled components">
+                                        <li class="nav__groupItem  icon icon-category_real_estate" more>
+                                            <a href="/applications/real-estates/ListMyRealEstates" class="nav__itemText" more> &#x627;&#x644;&#x639;&#x642;&#x627;&#x631;&#x627;&#x62A; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon icon-category_notary" more>
+                                            <a href="/applications/wekalat/procurations-query" class="nav__itemText" more> &#x627;&#x644;&#x648;&#x643;&#x627;&#x644;&#x627;&#x62A; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon icon-category_notary" more>
+                                            <a href="/applications/iqrarat/Iqraraty" class="nav__itemText" more> &#x627;&#x644;&#x625;&#x642;&#x631;&#x627;&#x631;&#x627;&#x62A; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon icon-category_family" more>
+                                            <a href="/applications/socialcases/requests/home" class="nav__itemText" more> &#x627;&#x644;&#x62D;&#x627;&#x644;&#x627;&#x62A; &#x627;&#x644;&#x627;&#x62C;&#x62A;&#x645;&#x627;&#x639;&#x64A;&#x629; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon icon-category_notary" more>
+                                            <a href="/applications/mortgages/list" class="nav__itemText" more> &#x627;&#x644;&#x631;&#x647;&#x648;&#x646; </a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li more class="nav__groupItem p-0" onclick="ShowtooltepMinu(event)">
+                            <a href="#" more class="nav__groupItem icon icon-category_licenses"> &#x627;&#x644;&#x62A;&#x631;&#x627;&#x62E;&#x64A;&#x635; &#x627;&#x644;&#x639;&#x62F;&#x644;&#x64A;&#x629; </a>
+                            <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                <ul class="list-unstyled components">
+                                        <li class="nav__groupItem  icon icon-category_justice" more>
+                                            <a href="/applications/marriage-officials/marriage-Official-Licences" class="nav__itemText" more> &#x645;&#x623;&#x630;&#x648;&#x646;&#x64A; &#x627;&#x644;&#x623;&#x646;&#x643;&#x62D;&#x629; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon category_licenses" more>
+                                            <a href="/applications/lawyers/judicialLicences" class="nav__itemText" more> &#x627;&#x644;&#x645;&#x62D;&#x627;&#x645;&#x64A;&#x646; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon category_licenses" more>
+                                            <a href="/applications/mwathiqen" class="nav__itemText" more> &#x627;&#x644;&#x645;&#x648;&#x62B;&#x642;&#x64A;&#x646; </a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li more class="nav__groupItem p-0" onclick="ShowtooltepMinu(event)">
+                            <a href="#" more class="nav__groupItem icon icon-clock"> &#x627;&#x644;&#x645;&#x648;&#x627;&#x639;&#x64A;&#x62F; </a>
+                            <div class="tooltep_Minu" transition="fadeIn" hidden>
+                                <ul class="list-unstyled components">
+                                        <li class="nav__groupItem  icon icon-clock" more>
+                                            <a href="/applications/appointment-requests" class="nav__itemText" more> &#x632;&#x64A;&#x627;&#x631;&#x629; &#x645;&#x631;&#x641;&#x642; &#x639;&#x62F;&#x644;&#x64A; </a>
+                                        </li>
+                                        <li class="nav__groupItem  icon icon-clock" more>
+                                            <a href="/applications/notary-publications/appointments" class="nav__itemText" more> &#x643;&#x62A;&#x627;&#x628;&#x627;&#x62A; &#x627;&#x644;&#x639;&#x62F;&#x644; &#x627;&#x644;&#x645;&#x62A;&#x646;&#x642;&#x644;&#x629; </a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__groupItem p-0">
+                            <a href="/applications/crm/list" class="nav__groupItem  icon icon-mail">
+                                <span class="font-weight-bold text-pepper">&#x627;&#x644;&#x62A;&#x648;&#x627;&#x635;&#x644; &#x627;&#x644;&#x639;&#x62F;&#x644;&#x64A; 1950</span>
+                            </a>
+                        </li>
+                        <li class="nav__groupItem p-0">
+                            <a href="/applications/lawsuit/judicial-fees" class="nav__groupItem  icon icon-category_justice">
+                                <span class="font-weight-bold text-pepper">&#x627;&#x644;&#x62A;&#x643;&#x627;&#x644;&#x64A;&#x641; &#x627;&#x644;&#x642;&#x636;&#x627;&#x626;&#x64A;&#x629;</span>
+                            </a>
+                        </li>
+        </menu>
+    </div>
+</nav>
+
+<script>
+    $(function () {
+        $('#nav__mobileClose').click(function () {
+            $('.nav__mobileWrapper').toggleClass('open');
+            $('body, html').toggleClass('overflow_hidden');
+        });
+    });
+
+
+</script>
+
+    
+<main class="sections">
+    <div class="dashboard">
+        <section class="dashboardActions" >
+            
+            
+
+
+<noscript><strong>We're sorry but ASP.NET Core Vue Starter doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><link rel="stylesheet" href="/applications/courts/lawsuits-requests/top.css"><script src="/applications/courts/lawsuits-requests/js/chunk-vendors.1169b559.js"></script><script src="/applications/courts/lawsuits-requests/js/app.e1ecadbf.js"></script>
+
+
+            <footer class="footer intairnal">
+    <div class="footer__contactBox">
+        <div class="footer__logo">
+            <a href="/" class="footer__logoLink">
+                <img alt="nijiz" class="footer__logoImg" src="https://najizcdn.moj.gov.sa/n2/Images/logo.svg?v=27" />
+            </a>
+        </div>
+        <a href="mailto:1950@moj.gov.sa" class="footer__contact footer__contact--mail">
+            1950@moj.gov.sa
+        </a>
+        <a href="tel:1950" class="footer__contact footer__contact--phone">
+            1950
+        </a>
+    </div>
+
+    <div class="footer__copy">
+        <div class="footer__links">
+            <a href="/about" class="footer__linksItem">
+                عن ناجز
+            </a>
+            <a href="/applications/dashboard/faq" class="footer__linksItem">
+                الاسئلة المتكررة
+            </a>
+            <a href="/privacy-policy" class="footer__linksItem">
+                سياسة الخصوصية
+            </a>
+            <a href="/terms-conditions" class="footer__linksItem">
+                الشروط والأحكام
+            </a>
+        </div>
+        <div class="footer__copyright">
+            جميع الحقوق محفوظة © 2022
+        </div>
+        <div class="footer__logoWrapper">
+            <div class="footer__copyLogo">
+                <a href="https://vision2030.gov.sa/ar" class="footer__logoLink">
+                    <img alt="nijiz" class="footer__logoImg footer__visionLogo" src="https://najizcdn.moj.gov.sa/n2/Images/vision2030.svg?v=27" />
+                </a>
+            </div>
+            <div class="footer__copyLogo">
+                <a href="https://www.moj.gov.sa/" class="footer__logoLink">
+                    <img alt="nijiz" width="110" class="footer__logoImg" src="https://najizcdn.moj.gov.sa/n2/Images/moj-logo.svg?v=27" />
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </section>
+    </div>
+</main>
+<link href="https://najizcdn.moj.gov.sa/n2/iziToast/1.4.0/css/iziToast.css?v=27" rel="stylesheet" />
+<script src="https://najizcdn.moj.gov.sa/n2/iziToast/1.4.0/js/iziToast.js?v=27"></script>
+
+
+    <div class="modal fade" id="sessionTimeout" tabindex="-1" role="dialog" aria-labelledby="sessionTimeoutTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" role="document" style="max-width: 700px">
+        <div class="modal-content">
+            <div class="profile__container profile__container--floatingBox mt-0">
+                <div class="profile__wrapper ml-2">
+                    <div class="accountTitle__container">
+                        <h3 class="accountTitle__title">
+                            صلاحية الجلسة قاربت على الانتهاء
+                        </h3>
+                        <h5 class="accountTitle__subtitle">
+                            هل تريد تمديد الجلسة؟
+                        </h5>
+                        <div class="mt-2 small bg-light text-center p-3">
+                            سيتم تسجيل الخروج بعد: <span id="logoutCounter">60</span>
+                        </div>
+                    </div>
+
+                    <div class="profile__buttons">
+                        <button id="logoutBtn" class="button button--text">
+                            <span class="button__buttonText">
+                                تسجيل الخروج
+                            </span>
+                        </button>
+                        <button id="btnExtension" class="button button--small button--border button--green" onclick="btnExtension()">
+                            <span class="button__buttonText">
+                                تمديد
+                            </span>
+                        </button>
+                        <div id="footerActivateBtn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var timeoutSession;
+    var timer;
+
+    $(function () {
+        ['mousemove', 'keypress'].forEach(function (y) {
+            document.addEventListener(y, function (e) {
+                clearInterval(timeoutSession);
+                timeoutSession = setInterval(function () {
+                    $('#logoutCounter').html(60);
+                    $('#sessionTimeout').modal("show");
+                    clearInterval(timeoutSession);
+
+                    timer = setInterval(function () {
+                        var count = parseInt($('#logoutCounter').html());
+                        if (count !== 0) {
+                            $('#logoutCounter').html(count - 1);
+                        } else {
+                            clearInterval(timer);
+                            window.location.href = "/Account/Logout?loggedOutMsg=%D8%AA%D9%85%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%AE%D8%B1%D9%88%D8%AC%D9%83%20%D8%A8%D8%B3%D8%A8%D8%A8%20%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D8%A1%20%D8%B5%D9%84%D8%A7%D8%AD%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D9%84%D8%B3%D8%A9";
+                        }
+                    }, 1000);
+                }, 900 * 1000);
+            }, true);
+        });
+    });
+    function btnExtension() {
+        clearInterval(timer);
+        $('#sessionTimeout').modal("hide");
+        $(document).trigger('ExtensionEvent');
+    }
+    $('#logoutBtn').click(function () {
+        window.location.href = "/Account/Logout?loggedOutMsg=%D8%AA%D9%85%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D8%AE%D8%B1%D9%88%D8%AC%20%D8%A8%D9%86%D8%AC%D8%A7%D8%AD";
+    });
+</script>
+    
+    <script defer="True" src="https://najizcdn.moj.gov.sa/n2/Select2/4.0.11/js/select2.min.js?v=27"></script>
+    <script defer="True" src="https://najizcdn.moj.gov.sa/n2/perfect-scrollbar/1.5.0/js/perfect-scrollbar.min.js?v=27"></script>
+    
+    
+<div id="cx-sidebar-channel-selector" title="Live Support">
+    <div class="cx-channel-selector-icon cx-icon" data-icon="agent" id="cx-sidebar-channel-head">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100">
+        <g class="cx-svg-icon-tone1">
+        <path d="M91.6,41.4C90.6,19.3,72.3,1.6,50,1.6C27.7,1.6,9.4,19.3,8.4,41.4C3.6,42.3,0,46.5,0,51.6C0,57.3,4.7,62,10.4,62h2.1v-4.2h-2.1c-3.4,0-6.3-2.8-6.3-6.2s2.8-6.2,6.3-6.2c1.2,0,2.1-0.9,2.1-2.1C12.5,22.6,29.3,5.7,50,5.7c20.7,0,37.5,16.8,37.5,37.5c0,1.2,0.9,2.1,2.1,2.1c3.4,0,6.2,2.8,6.2,6.2s-2.8,6.2-6.2,6.2c-1.2,0-2.1,0.9-2.1,2.1c0,14.4-8.4,27.7-21.4,33.9l-1.9,0.9l1.8,3.8l1.9-0.9c13.9-6.6,23-20.5,23.7-35.7c4.8-1,8.4-5.2,8.4-10.2S96.4,42.3,91.6,41.4z" /><path d="M81.2,59.9V45.3v-2.1C81.2,26,67.2,12,50,12c-17.2,0-31.2,14-31.2,31.3v1.4v15.3c0,16.1,12.6,29.8,28.7,31.1c0.9,0.1,1.7,0.1,2.6,0.1C67.2,91.2,81.2,77.1,81.2,59.9z M50,16.2c14.9,0,27.1,12.1,27.1,27.1H62.5c-8.9,0-17.2-4.4-22.2-11.7c-0.8-1.1-2.6-1.1-3.4,0c-3.4,4.9-8.3,8.3-13.8,10.2C23.8,27.5,35.6,16.2,50,16.2z M50,87c-0.8,0-1.5,0-2.2-0.1c-13.9-1.1-24.8-13-24.8-27V46.2c6.1-1.7,11.6-5.2,15.6-10c5.9,7.1,14.7,11.2,24,11.2h14.6v12.5C77.1,74.8,64.9,87,50,87z" />
+
+				</g>
+			</svg>
+    </div>
+    <div class="cx-channel-selector-icon cx-icon" id="cx-sidebar-channel-1" title="المحادثة الفورية">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100">
+        <g class="cx-svg-icon-tone1">
+        <path d="M25,54.1677083 L75,54.1677083 L75,50.0005208 L25,50.0005208 L25,54.1677083 Z M25,37.5005208 L75,37.5005208 L75,33.3333333 L25,33.3333333 L25,37.5005208 Z M42.03125,95.8333333 L37.5,95.8333333 L37.5,91.6661458 L42.03125,91.6661458 C48.721875,91.6661458 54.7375,87.9489583 57.7296875,81.9645833 L60.6359375,76.1520833 C60.9890625,75.4458333 61.7109375,75.0005208 62.5,75.0005208 L64.5828125,75.0005208 C81.8140625,75.0005208 95.8328125,60.9817708 95.8328125,43.7505208 C95.8328125,26.5192708 81.8140625,12.5005208 64.5828125,12.5005208 L35.415625,12.5005208 C18.184375,12.5005208 4.165625,26.5192708 4.165625,43.7505208 C4.165625,60.9817708 18.184375,75.0005208 35.415625,75.0005208 L37.5,75.0005208 L37.5,79.1661458 L35.415625,79.1661458 C15.8875,79.1661458 0,63.2786458 0,43.7505208 C0,24.2208333 15.8875,8.33333333 35.415625,8.33333333 L64.5828125,8.33333333 C84.1109375,8.33333333 100,24.2208333 100,43.7505208 C100,63.2786458 84.1109375,79.1661458 64.5828125,79.1661458 L63.7875,79.1661458 L61.45625,83.8286458 C57.753125,91.2333333 50.3109375,95.8333333 42.03125,95.8333333 L42.03125,95.8333333 Z"></path>
+				</g>
+			</svg>
+    </div>
+    <div class="cx-channel-selector-icon cx-icon" id="cx-sidebar-channel-3" title="إتصل بنا">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100">
+        <g class="cx-svg-icon-tone1">
+        <path d="M82.0072679,63.9945399 L99.0854947,75.5711715 C99.712061,75.9946115 100.058938,76.7243033 99.9917501,77.4774328 C99.9511249,77.9711858 98.7745554,89.6743806 85.1104114,96.7728604 C81.5041399,98.6478716 77.0400508,100.001005 71.6743938,100.001005 C60.4212017,100.002567 45.1961109,94.0462816 25.5756814,74.4258521 C-3.40261641,45.4459918 -2.57292396,26.0552512 3.22867313,14.8911221 C10.327153,1.22697813 22.0303477,0.051971125 22.5241007,0.00822086409 C23.2819177,-0.0589670366 24.006922,0.289472541 24.4303621,0.914476268 L35.9726184,17.9427028 C38.1335688,21.3427231 37.6585659,25.6396237 34.8538617,28.4443279 L27.2085036,36.089686 C30.9991512,41.5600311 36.4679338,48.5100726 43.9789161,56.0226174 C52.178965,64.2226663 59.6915098,69.968013 65.3571686,73.7727232 L62.9587168,77.2102437 C57.4758716,73.5211592 50.3664542,68.0898768 42.5164074,60.4320187 L42.5070324,60.4413937 L41.0335861,58.9679474 L39.5601398,57.4945012 L39.5710773,57.4851261 C22.825665,40.3209613 16.6209405,26.5990044 16.3584389,26.0083759 L15.5131214,24.1052396 L19.3178316,22.4146045 L20.1662741,24.3146158 C20.1959618,24.3802412 21.6303454,27.5161974 24.8538021,32.5506024 L31.9085317,25.4974354 C33.3226026,24.0833644 33.5616665,21.9177265 32.4897851,20.2286539 L21.733471,4.36293433 C18.9459544,4.9941881 11.7724741,7.48170293 6.92557018,16.8130086 C1.76772692,26.7411928 1.32709929,44.2850474 28.522574,71.4805221 C55.7164861,98.6728717 73.2603407,98.2338066 83.1885249,93.0759633 C92.5135805,88.2306219 95.0042204,81.0633917 95.6385992,78.2665 L79.7213168,67.4773732 C78.1853701,66.5039299 76.1931707,66.6679934 74.7853498,67.8555004 L71.2462662,65.4570486 L71.5572056,65.1461093 C74.3603473,62.3429676 78.6588104,61.8695273 82.0072679,63.9945399 Z M63.6692368,33.6803289 L88.4051777,8.94438804 L91.3522629,11.8914733 L66.6163221,36.6274141 L80.3376133,36.6274141 L80.3376133,40.7933363 L62.626975,40.7933363 C60.9018519,40.7933363 59.501752,39.394799 59.501752,37.6681133 L59.501752,19.9590376 L63.6692368,19.9590376 L63.6692368,33.6803289 Z"></path>
+				</g>
+			</svg>
+    </div>
+</div>
+
+</body>
+
+</html>
